@@ -1,5 +1,5 @@
 ﻿using System;
-
+using TakePhotoAzure.Views;
 using Xamarin.Forms;
 
 namespace TakePhotoAzure
