@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TakePhotoAzure", "TakePhotoAzure\TakePhotoAzure\TakePhotoAzure.shproj", "{1B355E43-F325-49DE-831B-85BC6D5881BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakePhotoAzure.Android", "TakePhotoAzure\TakePhotoAzure.Android\TakePhotoAzure.Android.csproj", "{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakePhotoAzure.iOS", "TakePhotoAzure\TakePhotoAzure.iOS\TakePhotoAzure.iOS.csproj", "{F2EDDD06-48B3-48B2-9942-6C923C30E83A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TakePhotoAzure\TakePhotoAzure\TakePhotoAzure.projitems*{1b355e43-f325-49de-831b-85bc6d5881bc}*SharedItemsImports = 13
+		TakePhotoAzure\TakePhotoAzure\TakePhotoAzure.projitems*{f2eddd06-48b3-48b2-9942-6c923c30e83a}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhone.Build.0 = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CD32AEFC-FCFA-4ADA-82EE-B0D8FDF5F977}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Release|iPhone.Build.0 = Release|iPhone
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F2EDDD06-48B3-48B2-9942-6C923C30E83A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {107984BC-06D4-4361-849B-0FB67C859CC0}
+	EndGlobalSection
+EndGlobal
