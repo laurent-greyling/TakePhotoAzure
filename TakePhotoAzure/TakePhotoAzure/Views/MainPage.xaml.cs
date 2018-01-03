@@ -38,8 +38,7 @@ namespace TakePhotoAzure.Views
                 var blobClient = storageAccount.CreateCloudBlobClient();
                 var container = blobClient.GetContainerReference("myphotos");
 
-                //TODO: why does this work but not await container.CreateIfNotExistsAsync();
-                container.CreateIfNotExistsAsync().Wait();
+                await container.CreateIfNotExistsAsync();
 
                 var blockBlob = container.GetBlockBlobReference($"{PhotoImage.Source.Id}");
 
